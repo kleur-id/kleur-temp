@@ -1,0 +1,60 @@
+html {
+	height: 100%;
+	overflow: hidden;
+}
+body {
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.title {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+}
+
+h1 span {
+	font-size: 2em;
+	text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+	font-weight: 700;
+	letter-spacing: -5px;
+}
+.bg {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+	opacity: 0.5;
+	background: linear-gradient(135deg, #ff0000, #b500ff, #009cff, #a4ff00, #ffea00, #ff9000);
+	background-size: 1200% 1200%;
+	-webkit-animation: kleur 59s ease infinite;
+	-moz-animation: kleur 59s ease infinite;
+	-o-animation: kleur 59s ease infinite;
+	animation: kleur 59s ease infinite;
+}
+@-webkit-keyframes kleur {
+    0%{background-position:0% 10%}
+    50%{background-position:100% 91%}
+    100%{background-position:0% 10%}
+}
+@-moz-keyframes kleur {
+    0%{background-position:0% 10%}
+    50%{background-position:100% 91%}
+    100%{background-position:0% 10%}
+}
+@-o-keyframes kleur {
+    0%{background-position:0% 10%}
+    50%{background-position:100% 91%}
+    100%{background-position:0% 10%}
+}
+@keyframes kleur {
+    0%{background-position:0% 10%}
+    50%{background-position:100% 91%}
+    100%{background-position:0% 10%}
+}
